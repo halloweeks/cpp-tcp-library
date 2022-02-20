@@ -1,4 +1,7 @@
-Automated build<br>
+<h3>Automated build</h3>
+
+<b>Note: Make sure you have installed g++ and cmake</b>
+
 ``` 
 git clone https://github.com/halloweeks/cpp-tcp-library.git
 ```
@@ -68,7 +71,7 @@ int main(){
 }
 ```
 
-<h3>Server but not support multiple client</h3>
+<h3>single_server.cpp not support multiple client handling</h3>
 
 ```
 #include "socket.hpp"
@@ -111,10 +114,12 @@ int main(){
 }
 ```
 
-<h3>Server multiple client handle</h3>
+<h3>multiple_server.cpp Can support multiple client handling</h3>
 <b>Compilation process</b>
 
-``` g++ server.cpp -o server -lpthread ```
+```
+g++ server.cpp -o server -lpthread
+```
 
 ```
 #include "socket.hpp"
