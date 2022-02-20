@@ -9,4 +9,7 @@ mkdir build
 cd build
 cmake ..
 make
+cp multiple_server ../
+cp single_server ../
+cp client ../
 rm -rf ../build
