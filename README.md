@@ -1,5 +1,22 @@
-Easy to build<br>
-You can run ``` bash build.sh ``` script
+Automated build<br>
+``` 
+git clone https://github.com/halloweeks/cpp-tcp-library.git
+```
+```
+cd cpp-tcp-library
+```
+
+``` 
+bash build.sh
+```
+
+```
+./multiple_server
+```
+
+```
+./client
+```
 
 <h3>Client</h3>
 
