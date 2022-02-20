@@ -2,6 +2,12 @@
 
 <b>Note: Make sure you have installed g++ and cmake</b>
 
+<b>Requirement</b><br>
+cmake >= 3.16.0<br>
+c++17 supports
+
+
+
 ``` 
 git clone https://github.com/halloweeks/cpp-tcp-library.git
 ```
