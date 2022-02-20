@@ -24,7 +24,6 @@ bash build.sh
 <h3>Client</h3>
 
 ```
-
 #include "socket.hpp"
 
 int main(){
