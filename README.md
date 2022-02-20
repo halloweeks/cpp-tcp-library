@@ -1,3 +1,6 @@
+Easy to build<br>
+You can run ``` bash build.sh ``` script
+
 <h3>Client</h3>
 
 ```
