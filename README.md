@@ -1,5 +1,5 @@
 <h3>C++ TCP library Linux</h3>
-
+<P>Make sure you have installed cmake, gcc, git</p>
 <h4>Requirement</h4>
 cmake >= 3.10<br>
 c++17 supports
