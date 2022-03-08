@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if ! dpkg -s cmake >/dev/null 2>&1; then
-  echo "We not found cmake on your system\nPlease run apt-get install cmake"
+  echo -e "We not found cmake on your system\nPlease run apt-get install cmake"
   exit 1;
 fi
 
@@ -9,7 +9,7 @@ mkdir build
 cd build
 cmake ..
 make
-cp multiple_server ../
-cp single_server ../
+cp server1 ../
+cp server2 ../
 cp client ../
 rm -rf ../build
