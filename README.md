@@ -24,7 +24,7 @@ bash build.sh
 ```
 
 <b>What is server2.exe</b><br>
-<p>Server2.exe basic server code</p>
+<p>Server2.exe basic server code. Can support only 1 client</p>
 
 
 ```
