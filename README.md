@@ -16,20 +16,23 @@ cd cpp-tcp-library
 bash build.sh
 ```
 
-<b>multiple_server can support multiple client requests</b>
+<b>what is server1.exe</b>
+<p>Server1.exe can support multiple clients request</p>
 
 ```
-./multiple_server
+./server1.exe
 ```
 
-<b>single_server only support only one client and other clients requests in waiting</b><br>
+<b>What is server2.exe</b><br>
+<p>Server2.exe basic server code</p>
+
 
 ```
-./single_server
+./server2.exe
 ```
 
 <b>Run the client</b><br>
 
 ```
-./client
+./client.exe
 ```
