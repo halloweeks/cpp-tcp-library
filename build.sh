@@ -9,7 +9,7 @@ mkdir build
 cd build
 cmake ..
 make
-cp server1 ../
-cp server2 ../
-cp client ../
+cp server1.exe ../
+cp server2.exe ../
+cp client.exe ../
 rm -rf ../build
