@@ -1,7 +1,7 @@
 <h3>C++ TCP library Linux</h3>
 
 <h4>Requirement</h4>
-cmake >= 3.16.0<br>
+cmake >= 3.10<br>
 c++17 supports
 <br><br>
 
