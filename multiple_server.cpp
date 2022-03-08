@@ -34,20 +34,21 @@ void *connection_handler(void *socket_desc){
   //Get the socket descriptor
   int sock = *(int*)socket_desc;
   int read_size;
-  std::string buffer;
-  
+  std::string RequestData, ResponseData = "Hello, client";
+
   // Receive message from client
-  while((read_size = ssock->Receive(sock, buffer))>0){
-     if(ssock->Send(sock, buffer) == -1) {
+  while((read_size = ssock->Receive(sock, RequestData))>0){
+     // Print received message from client
+     std::cout << "[RECEIVE] " << RequestData << std::endl;
+     // Send response to client
+     if(ssock->Send(sock, ResponseData) == -1) {
         std::cout << "[WARNING] CAN'T SEND PACKET TO CONNECTION ID " << sock << std::endl;
-	 } else {
-		std::cout << "[SEND] " << buffer << std::endl;
-	 }
-	
-	 std::cout << "[RECEIVE] " << buffer << std::endl;
+     } else {
+	std::cout << "[SEND] " << ResponseData << std::endl;
+     }
   }
   
-  // check receive
+  // check receive status
   if(read_size == 0) {
   	std::cout << "[NOTE] CONNECTION ID " << sock << " DISCONNECTED " << std::endl;
       fflush(stdout);
