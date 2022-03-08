@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(socket VERSION 1.0)
 
-add_executable(multiple_server multiple_server.cpp)
-add_executable(single_server single_server.cpp)
+add_executable(server1 server1.cpp)
+add_executable(server2 server2.cpp)
 add_executable(client client.cpp)
 
-target_link_libraries(multiple_server pthread)
+target_link_libraries(server1 pthread)
