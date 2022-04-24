@@ -1,6 +1,7 @@
-<h3>C++ TCP library Linux</h3>
-<P>Make sure you have installed cmake, gcc, git</p>
+<h3>C++ tcp multithread server</h3>
+
 <h4>Requirement</h4>
+<p>Make sure you have installed cmake, gcc, git clone</p>
 cmake >= 3.10<br>
 c++17 supports
 <br><br>
@@ -16,22 +17,9 @@ cd cpp-tcp-library
 bash build.sh
 ```
 
-<b>what is server1.exe</b>
-<p>Server1.exe can support multiple clients request</p>
-
 ```
-./server1.exe
+./server.exe
 ```
-
-<b>What is server2.exe</b><br>
-<p>Server2.exe basic server code. Can support only 1 client</p>
-
-
-```
-./server2.exe
-```
-
-<b>Run the client</b><br>
 
 ```
 ./client.exe
